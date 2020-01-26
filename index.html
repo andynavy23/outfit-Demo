@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo</h2>
+<p>Outfit image :</p>
+<style type="text/css">
+<!--
+#DIV_IMG{
+    background-color:#FFB326;
+    position:relative;
+}
+#top{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	z-index: 2;
+}
+#bottom{
+	position: relative;
+	top: 250px;
+	left: 60px;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+}
+-->
+</style>
+<div id="DIV_ING">
+	<button onclick="document.getElementById('top').src='top-1.png'">Outfit one</button>
+	<button onclick="document.getElementById('top').src='top-2.png'">Outfit two</button>
+	<img src="top-1.png" alt="Top-1" id="top">
+	<img src="bottom-1.png" alt="Bottom-1" id="bottom">
+</div>
+
+</body>
+</html>

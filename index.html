@@ -29,6 +29,10 @@
 <div id="DIV_ING">
 	<button onclick="document.getElementById('top').src='top-1.png'">Outfit one</button>
 	<button onclick="document.getElementById('top').src='top-2.png'">Outfit two</button>
+	<select onchange="document.getElementById('top').src = this.value">
+		<option value="top-1.png">1</option>
+		<option value="top-2.png">2</option>
+	</select>
 	<img src="top-1.png" alt="Top-1" id="top">
 	<img src="bottom-1.png" alt="Bottom-1" id="bottom">
 </div>
